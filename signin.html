@@ -15,32 +15,60 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
+        <div class="row shadow bg-body rounded">
+            <div class="col event-pic">
                 <img src="/image/music.jpg" id="event-image" class="event-image"/>
             </div>
-            <div class="col-6 sign-in-form">
-                    <header>
-                        <h3 class="sign-in-header">
-                            Sign In
-                            <br/>
-                            <span class="sign-up-link-question"> New to Ticket.com?<small class="sign-up-link"> Sign Up</small></span>
-                        </h3>
-                    </header>
-                    <div class="mb-3 row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="example@email.com">
-                        </div>
+            <span class="col sign-in-form mt-5">     
+                <header>
+                    <h3 class="sign-in-header">
+                        Sign In
+                        <br/>
+                        <span class="sign-up-link-question"> New to Ticket.com?<small class="sign-up-link"> Sign Up</small></span>
+                    </h3>
+                </header>
+                <div class="sign-in-input">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
                     </div>
-                    <div class="mb-3 row">
-                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="inputPassword">
-                        </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
                     </div>
-            </div>
+                </div>
+                <footer>
+                    <div class="checkbox-rememberme">
+                        <div class="row">
+                            <div class="col">
+                            <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="false">
+                             Remember Me
+                            </div>
+                            <div class="col">
+                                <span class="forgot-password mb-3 float-end ">Forgot Password?</span>
+                            </div>   
+                        </div> 
+                    </div>  
+                    <div class="policy-section mb-4">
+                        By continuing past this page, you agree to the
+                        <span class="terms-of-use">Terms of Use</span> and understand that
+                        information will be used as described in our
+                        <span class="privacy-policy">Privacy Policy.</span>
+                    </div>  
+                    <button type="submit" class="btn btn-danger float-end">Sign in</button> 
+                </footer>
+            </span>
         </div>
     </div>
+    <footer class="sign-in-footer">
+        <span class="copy-right" alt="copyright"><i class="far fa-copyright"></i>All rights reserved. This website is coded by
+            Amanda Ventura and it is </span>
+        <a href="https://github.com/ASV185/ticket-website" class="git-link" title="project's git-link" target="_blank">
+            open-sourced.
+        </a>
+        <span class="sign-in-credit-link">
+            Photo from Unsplash.com and by Anthony DELANOIX.
+        </span>
+    </footer>
 </body>
 </html>

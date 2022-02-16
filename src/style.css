@@ -146,11 +146,20 @@ footer a {
   padding: 40px;
 }
 
+.event-pic {
+  padding-left: none;
+}
+
 .event-image {
   width: 600px;
   height: 540px;
   border-radius: 2px;
   padding: 0;
+  position: static;
+}
+
+.sign-in-form {
+  position: static;
 }
 
 header h3 {
@@ -160,12 +169,44 @@ header h3 {
   font-weight: bolder;
 }
 
+header .sign-up-link {
+  color: #1a79df;
+  font-weight: 800;
+}
+
+header .sign-up-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-in-form footer {
+  background: #ffffff;
+  color: gray;
+}
+
+.sign-in-form span {
+  display: inline;
+  color: #1a79df;
+  font-weight: bold;
+}
+
+.sign-in-form footer .forgot-password:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-in-form footer .terms-of-use:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-in-form footer .privacy-policy:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 header .sign-up-link-question {
   font-size: 18px;
   font-weight: 500;
-}
-
-header .sign-up-link {
-  color: #0150a7;
-  font-weight: 800;
+  color: #000000;
 }
