@@ -92,6 +92,7 @@ li {
 }
 
 .top-bottom-info-link {
+  display: block;
   font-family: "Roboto Slab", serif;
   color: #ffffff;
   font-weight: bolder;
@@ -100,6 +101,10 @@ li {
 
 .top-bottom-info-link:hover {
   color: #ffffff;
+}
+
+.App .top-bottom-info-link {
+  padding: 25px;
 }
 
 footer {
@@ -184,10 +189,11 @@ header .sign-up-link:hover {
   color: gray;
 }
 
-.sign-in-form span {
+.sign-in-form a {
   display: inline;
   color: #1a79df;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .sign-in-form footer .forgot-password:hover {
