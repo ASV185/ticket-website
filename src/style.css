@@ -167,19 +167,19 @@ footer a {
   position: static;
 }
 
-header h3 {
+h3 {
   font-family: "Roboto Serif", sans-serif;
   font-size: 35px;
   text-align: left;
   font-weight: bolder;
 }
 
-header .sign-up-link {
+.sign-up-link {
   color: #1a79df;
   font-weight: 800;
 }
 
-header .sign-up-link:hover {
+.sign-up-link:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -211,7 +211,7 @@ header .sign-up-link:hover {
   cursor: pointer;
 }
 
-header .sign-up-link-question {
+.sign-up-link-question {
   font-size: 18px;
   font-weight: 500;
   color: #000000;
